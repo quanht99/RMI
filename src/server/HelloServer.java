@@ -12,7 +12,7 @@ import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 
 public class HelloServer extends UnicastRemoteObject implements HelloWorld , Remote, User, Serializable {
-    public static final Student[] students = new Student[10];
+    public static final Student[] students = new Student[5];
     public HelloServer() throws RemoteException {
         super();
     };

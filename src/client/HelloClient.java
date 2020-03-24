@@ -16,7 +16,7 @@ public class HelloClient implements Serializable {
         User stub1 = (User) registry.lookup("HelloWorld123");
         HelloWorld stub2 = (HelloWorld) registry.lookup("HelloWorld123");
         System.out.println("Response sayHello: " + stub2.sayHello());
-        String response = stub1.getUser(17020984);
+        String response = stub1.getUser(1111);
         System.out.println("Response getUser:\n" + response);
     }
 }
